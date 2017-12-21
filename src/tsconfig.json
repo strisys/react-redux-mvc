@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+     "target": "es5"                           
+    ,"module": "commonjs"   
+    ,"noImplicitAny": false             
+    ,"allowJs": false                       
+    ,"jsx": "react"                           
+    ,"declaration": true                      
+    ,"outDir": "./../js/"                       
+    ,"removeComments": true                  
+    ,"noEmit": false                          
+    ,"strict": true                            
+    ,"alwaysStrict": true                      
+    ,"moduleResolution": "node"              
+    ,"allowSyntheticDefaultImports": false  
+    ,"listEmittedFiles": false
+    ,"traceResolution": false
+    ,"sourceMap": true
+    ,"strictNullChecks": false
+  }
+}

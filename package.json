@@ -1,0 +1,40 @@
+{
+  "name": "react-redux-mvc",
+  "version": "0.0.0",
+  "description": "MVC + redux + react",
+  "main": "./js/index.js",
+  "scripts": {
+    "postinstall": "npm run transpile",
+    "transpile": "tsc -project ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strisys/react-redux-mvc.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "mvc"
+  ],
+  "author": "Stephen Trudel, Strisys Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strisys/react-redux-mvc/issues"
+  },
+  "homepage": "https://github.com/strisys/react-redux-mvc#readme",
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.31",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "@types/redux-immutable-state-invariant": "^2.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-immutable-state-invariant": "^2.1.0"
+  }
+}
